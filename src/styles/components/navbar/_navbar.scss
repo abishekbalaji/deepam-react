@@ -1,0 +1,18 @@
+.navbar__container {
+  position: relative;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: black;
+}
+
+.navbar__navlinks {
+  padding: $s-size;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+  margin: $s-size;
+}

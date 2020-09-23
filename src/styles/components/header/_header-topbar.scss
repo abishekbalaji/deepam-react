@@ -1,0 +1,36 @@
+.header__topbar {
+  background-color: $main-yellow;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header__topbar-location {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.4rem;
+}
+
+.header__topbar-social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.header__topbar-social-media-icons {
+  margin: 0 $s-size 0.5rem $s-size;
+  font-size: 1.4rem;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header__topbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header__topbar-location {
+    font-size: $m-size;
+    margin: $s-size;
+  }
+
+  .header__topbar-social-media-icons {
+    font-size: $m-size;
+    margin: $s-size;
+  }
+}
